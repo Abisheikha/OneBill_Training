@@ -25,7 +25,7 @@ The student information management system is to manage the details of students s
 * Student Id is taken as input and displays that Student's Id, name, marks and courses.
 
 ### Sorted list of students
-* Displays details of all the students in a sorted manner.Sorting is done according to 
+* Displays details of all the students in a sorted manner. Sorting is done according to 
                 - Student Id
                 - Student name
                 - Student marks
