@@ -7,7 +7,7 @@ The student information management system is to manage the details of students s
 * [Delete a student](#delete-a-student)
 * [Display list of students](#display-list-of-students)
 * [Get a student's information](#get-a-student's_information)
-* [Sorted list of students](#sorted-list-of-student)
+* [Sorted list of students](#sorted-list-of-students)
 
 ### Add a student
 * Get the details of student and added to the student's list. If the Student Id is already found, it asks to enter some other Student Id(as Student Id can't have duplicate values).
