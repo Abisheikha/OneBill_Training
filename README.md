@@ -2,8 +2,8 @@
 The student information management system is to manage the details of students such as Student Id, name, marks and courses.
 
 ## Functions
-* [Add a student]
-* [Edit a student](#edit_student)
+* Add a student
+* [Edit a student](#edit-a-student)
 * [Delete a student](#delete_student)
 * [Display list of students](#display)
 * [Get a student's information](#student_info)
