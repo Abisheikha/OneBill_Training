@@ -13,10 +13,22 @@ The student information management system is to manage the details of students s
 * Get the details of student and added to the student's list. If the Student Id is already found, it asks to enter some other Student Id(as Student Id can't have duplicate values).
 
 ## Edit a student
-* Student Id is taken as input and that particular Student's Id, name, marks or courses can be edited.
+* Student Id is taken as input and edits that particular Student's Id, name, marks or courses.
 
 ## Delete a student
-* Student Id is taken as input and that particular Student's details are deleted. Deletion can't be done if the Student list is empty.
+* Student Id is taken as input and deletes that particular Student's details. Deletion can't be done if the Student list is empty.
 
 ## Display list of students
+* Displays details of all the students and if empty, displays that the list is empty.
+
+## Get a student's information
+* Student Id is taken as input and displays that Student's Id, name, marks and courses.
+
+## Sorted list of students
+* Displays details of all the students in a sorted manner.Sorting is done according to 
+                * Student Id
+                * Student name
+                * Student marks
+                * Student course
+         
 
