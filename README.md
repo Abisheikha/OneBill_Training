@@ -6,7 +6,7 @@ The Student information management system is to manage the details of students s
 * [Edit a student](#edit-a-student)
 * [Delete a student](#delete-a-student)
 * [Display list of students](#display-list-of-students)
-* [Get a student's information](#get-a-student's-information)
+* [Get a student information](#get-a-student-information)
 * [Sorted list of students](#sorted-list-of-students)
 
 ### Add a student
