@@ -10,5 +10,13 @@ The student information management system is to manage the details of students s
 * [Sorted list of students](#sorted_display)
 
 ## Add a student
-* Get the details of student and added to the student's list. If Student Id is already found, it asks to enter some other Student Id(as it can't be repeated).
-   
+* Get the details of student and added to the student's list. If the Student Id is already found, it asks to enter some other Student Id(as Student Id can't have duplicate values).
+
+## Edit a student
+* Student Id is taken as input and that particular Student's Id, name, marks or courses can be edited.
+
+## Delete a student
+* Student Id is taken as input and that particular Student's details are deleted. Deletion can't be done if the Student list is empty.
+
+## Display list of students
+
