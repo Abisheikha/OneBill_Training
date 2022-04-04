@@ -21,7 +21,7 @@ The Student information management system is to manage the details of students s
 ### Display list of students
 * Displays details of all the students and if empty, displays that the list is empty.
 
-### Get a student's information
+### Get a student information
 * Student Id is taken as input and displays that Student's Id, name, marks and courses.
 
 ### Sorted list of students
