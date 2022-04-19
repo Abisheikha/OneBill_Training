@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="2px solid black" width="600px">
+      <thead>
+        <th>Name</th>
+        <th>Value</th>
+      </thead>
+      <tbody>
+        <form style="border: 1px solid black">
+          <tr>
+            <td>
+              <label for="name">Name:</label>
+            </td>
+            <td><input type="text" /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="gender">Gender:</label>
+            </td>
+            <td>
+              <input type="radio" name="gender" />Male
+              <br />
+              <input type="radio" name="gender" />Female
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="eyecolor">Eye Color:</label>
+            </td>
+            <td>
+              <select name="eyecolr" id="eye">
+                <option value="Green">Green</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+                <option value="Black">Black</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="content">Describe Your athletic ability</label>
+            </td>
+            <td><textarea></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <input type="button" value="Enter my information" />
+            </td>
+          </tr>
+        </form>
+      </tbody>
+    </table>
+  </body>
+</html>

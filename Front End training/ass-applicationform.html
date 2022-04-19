@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="2px solid black" width="600px">
+      <tbody>
+        <form style="border: 1px solid black">
+          <tr>
+            <td>
+              <label for="name">NAME:</label>
+            </td>
+            <td><input type="text" /></td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="icno">IC No:</label>
+            </td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Address">Address</label>
+            </td>
+            <td><textarea></textarea></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender">Gender:</label>
+            </td>
+            <td>
+              <input type="radio" name="gender" />Male
+              <input type="radio" name="gender" />Female
+            </td>
+          </tr>
+
+          <tr>
+            <td width="160px">
+              <label for="dancetype">Dance Type:</label>
+            </td>
+            <td>
+              <input type="checkbox" id="dancetype" name="dancetype" />zapin
+              <input type="checkbox" id="dancetype" name="dancetype" />Joget
+              <input type="checkbox" id="dancetype" name="dancetype" />Inang
+              <input type="checkbox" id="dancetype" name="dancetype" />Lion
+              Dance
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="competition">Competition:</label>
+            </td>
+            <td>
+              <select name="Competition" size="3">
+                <option value="state">State level</option>
+                <option value="national">National level</option>
+                <option value="international">International level</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="Nationality">Nationality:</label>
+            </td>
+            <td>
+              <select name="nationality">
+                <option value="select">please select</option>
+                <option value="Indian">Indian</option>
+                <option value="American">American</option>
+                <option value="African">African</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="password">Password:</label>
+            </td>
+            <td><input type="password" /></td>
+          </tr>
+        </form>
+      </tbody>
+    </table>
+    <input type="submit" value="Register Me" />
+    <input type="button" value="Cancel" /><br />
+  </body>
+</html>
